@@ -58,10 +58,12 @@ end)
 RegisterCommand("ccg2", function() 
     local ped = PlayerPedId()
     local coords = GetEntityCoords(ped)
+    local heading = GetEntityHeading(ped)    
 
     if IsPedInAnyVehicle(ped) then 
         local vehicle = GetVehiclePedIsIn(ped)
         coords = GetEntityCoords(vehicle)
+        heading = GetEntityHeading(vehicle)    
     end
 
     local message = {
