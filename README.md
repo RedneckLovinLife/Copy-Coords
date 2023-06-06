@@ -3,7 +3,7 @@ Simple script for getting coords. Specifically for vector 2, 3, 4, Lixiero's tru
 
 USAGE
 
-/cc2  = vector3(1512.109, 3757.7354)
+/cc2  = vector2(1512.109, 3757.7354)
 
 /cc3  = vector3(1512.109, 3757.7354, 33.9995)
 
