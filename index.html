@@ -63,6 +63,23 @@
                     console.log('Copied:' + str)
                     copyTextToClipboard(str);
                 }
+                else if (eventName === 'copyCoordsDealership4') {
+                    var x = Number((event.data.x).toFixed(2));
+                    var y = Number((event.data.y).toFixed(2));
+                    var z = Number((event.data.z).toFixed(2));
+                    var h = Number((event.data.h).toFixed(2));
+                    var str = "{" + x + "," + y + "," + z + "," + h + "}"; 
+                    console.log('Copied:' + str)
+                    copyTextToClipboard(str);
+                }
+                else if (eventName === 'copyCoordsDealership3') {
+                    var x = Number((event.data.x).toFixed(2));
+                    var y = Number((event.data.y).toFixed(2));
+                    var z = Number((event.data.z).toFixed(2));
+                    var str = "{" + x + "," + y + "," + z + "}"; 
+                    console.log('Copied:' + str)
+                    copyTextToClipboard(str);
+                }
             }
 
             function copyTextToClipboard(text) {
