@@ -18,3 +18,5 @@ USAGE
 /lc3  = {1512.109, 3757.7354, 33.9995}    (Lixeiro Dealership and others Vector 3)
 
 /lc4  = {1512.109, 3757.7354, 33.9995, 204.0667}    (Lixeiro Dealership and others Vector 4)
+
+**You are free to change the commands in program.lua if you prefer a different command name**
